@@ -1,0 +1,139 @@
+/* Styles go here */
+
+header {
+    position:relative;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size:80px;
+    line-height:90px;
+    font-weight:700;
+    margin:0px;
+    padding-bottom:8px;
+}
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size:36px;
+    line-height:38px;
+    padding-bottom:0px;
+    font-weight:300;
+    text-transform:uppercase;
+    margin:0px;
+}
+
+.bannerText {
+    position:absolute;
+    left:0;
+    right:0;
+    top:35%;
+    text-align:center;
+    padding:30px 0 30px;
+    max-width:960px;
+    border:1px solid #fff;
+    background: rgba(0, 0, 0, 0.3);
+ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#b2000000, endColorstr=#b2000000);
+    zoom: 1;
+}
+.bannerText h1 {
+    text-transform:uppercase;
+}
+.bannerText h2 {
+    font-size:34px;
+    text-transform:none;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.navbar {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 300;
+}
+
+header {
+    text-align: center;
+    color: white;
+    background-attachment: scroll;
+    background-image: url(../img/back.JPG);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header .container {
+    padding-top: 599px;
+    padding-bottom: 50px;
+}
+
+header .split {
+    padding-top:5px;
+}
+
+header .intro-text .name{
+    display: block;
+    text-transform: uppercase;
+    font-family: Monstserrat,"Helvetica Neue", Helvetica,Arial,san-serif;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+header .intro-text .skills{
+    text-transform: uppercase;
+    font-family: Monstserrat,"Helvetica Neue", Helvetica, Arial,san-serif;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+#about{
+    background-color: #D7D7D7;
+}   
+
+#about .title {
+    font-size: 4em;
+}
+
+#about .titledescription{
+    font-size: 1.2em;
+}
+
+#about .container {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#about .container .name{
+    text-align: left;
+    font-size: 2.2em;
+}
+
+#about .container .jobtitle{
+    text-align: left;
+    fontsize: 1.4em;
+    padding-bottom: 25px;
+}
+
+#about .container .description{
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size:1.2em;
+}
+
+#about .buttons{
+    padding-top:10px;
+}
+
+#about .btn-xl {
+    padding: 8px 10px;
+    border-color: #7A7A7A;
+    border-radius: 3px;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    background-color: #7A7A7A;
+}
